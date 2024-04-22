@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 * {
     padding: 0;
     margin: 0;
@@ -7,46 +8,74 @@
 header {
     width: 80vw;
     height: 8vh;
-    /*background-color: gray;*/
+    background-color: #006d77;
     margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
+    font-family: "roboto",sans-serif;
+    color: white;
+    border-radius: 4px;
+    
 
 }
 
 .inputContainer {
     width: 80vw;
     height: 5vh;
-    /*background-color: aquamarine;*/
+    background-color: #83c5be;
     margin: auto;
     display: flex;
+    border-radius: 4px;
 }
 
 .toDoContainer {
     width: 80vw;
     height: 87vh;
-    background-color:violet;
+    background-color:#97a97c;
     margin: auto;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 4px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+    
     
 }
 
 #addButton {
     width: 15%;
-    height: 20px;
+    height: 25px;
     margin: auto;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: "roboto",sans-serif;
+}
+
+#addButton:hover {
+    background-color: #bbb;
 }
 
 #toDoInput{
     width: 85%;
-    height: 20px;
+    height: 25px;
     margin: auto;
+    border-radius: 12px;
+    font-family: "roboto",sans-serif;
 }
 
 .toDoItemContainer {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    font-family: "roboto",sans-serif;
+}
+
+body {
+    background-color: #e9f5db;
+    background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+    background-position: center;
 }
 
